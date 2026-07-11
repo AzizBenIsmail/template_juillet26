@@ -1,0 +1,46 @@
+[
+  {
+    "id": "admin-1",
+    "name": "Alice Moreau",
+    "email": "admin@levelup.fr",
+    "password": "admin123",
+    "role": "admin",
+    "active": true,
+    "enrolledCourses": ["course-1", "course-3"],
+    "progress": { "course-1": 100, "course-3": 40 },
+    "avatar": null
+  },
+  {
+    "id": "learner-1",
+    "name": "Julien Martin",
+    "email": "julien@levelup.fr",
+    "password": "learner123",
+    "role": "learner",
+    "active": true,
+    "enrolledCourses": ["course-2", "course-4"],
+    "progress": { "course-2": 75, "course-4": 20 },
+    "avatar": null
+  },
+  {
+    "id": "learner-2",
+    "name": "Sofia Dubois",
+    "email": "sofia@levelup.fr",
+    "password": "learner123",
+    "role": "learner",
+    "active": true,
+    "enrolledCourses": ["course-3"],
+    "progress": { "course-3": 55 },
+    "avatar": null
+  },
+  {
+    "id": "learner-3",
+    "name": "Maxime Leroy",
+    "email": "maxime@levelup.fr",
+    "password": "learner123",
+    "role": "learner",
+    "active": false,
+    "enrolledCourses": [],
+    "progress": {},
+    "avatar": null
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "course-1",
+    "title": "Maîtriser Figma pour le design UX/UI",
+    "category": "category-1",
+    "level": "Intermédiaire",
+    "price": 79,
+    "duration": "6 semaines",
+    "students": 420,
+    "rating": 4.8,
+    "summary": "Un parcours complet pour concevoir des interfaces modernes et activer une méthodologie UX solide.",
+    "instructor": "Camille Dupont",
+    "program": [
+      "Principes UX essentiels",
+      "Wireframes & prototypes",
+      "Design system et UI responsive",
+      "Test utilisateur"
+    ],
+    "reviews": [
+      { "name": "Emma", "comment": "Très bien structuré et utile.", "rating": 5 },
+      { "name": "Noah", "comment": "J'ai appris à prototyper vite.", "rating": 4 }
+    ]
+  },
+  {
+    "id": "course-2",
+    "title": "React moderne : de zéro à l'appli avancée",
+    "category": "category-2",
+    "level": "Avancé",
+    "price": 99,
+    "duration": "8 semaines",
+    "students": 860,
+    "rating": 4.9,
+    "summary": "Apprenez React 19 avec hooks, routage, contexte et bonnes pratiques pour produire une application professionnelle.",
+    "instructor": "Mathieu Leroy",
+    "program": [
+      "Fondamentaux React",
+      "State management avec Context",
+      "Routage & formulaires",
+      "Déploiement et optimisation"
+    ],
+    "reviews": [
+      { "name": "Léa", "comment": "Le meilleur cours React que j'ai suivi.", "rating": 5 },
+      { "name": "Lucas", "comment": "Contenu riche et progressif.", "rating": 5 }
+    ]
+  },
+  {
+    "id": "course-3",
+    "title": "Marketing digital pour lancer votre produit",
+    "category": "category-3",
+    "level": "Débutant",
+    "price": 59,
+    "duration": "5 semaines",
+    "students": 530,
+    "rating": 4.7,
+    "summary": "Élaborez une stratégie marketing performante, du ciblage à la campagne multicanale.",
+    "instructor": "Chloé Morel",
+    "program": [
+      "Positionnement & persona",
+      "SEO & content marketing",
+      "Publicités en ligne",
+      "Analyse des résultats"
+    ],
+    "reviews": [
+      { "name": "Inès", "comment": "Des exemples concrets et motivants.", "rating": 4 },
+      { "name": "Adam", "comment": "Très pratique pour démarrer.", "rating": 5 }
+    ]
+  },
+  {
+    "id": "course-4",
+    "title": "Productivité et gestion du temps pour freelances",
+    "category": "category-4",
+    "level": "Débutant",
+    "price": 49,
+    "duration": "4 semaines",
+    "students": 310,
+    "rating": 4.5,
+    "summary": "Apprenez à organiser vos journées, fixer des priorités et réaliser plus avec moins de stress.",
+    "instructor": "Simon Faure",
+    "program": [
+      "Routines gagnantes",
+      "Méthodes de priorisation",
+      "Outils de planning",
+      "Revue hebdomadaire"
+    ],
+    "reviews": [
+      { "name": "Clara", "comment": "Des conseils concrets et faciles à appliquer.", "rating": 5 },
+      { "name": "Hugo", "comment": "Je me sentais immédiatement plus productif.", "rating": 4 }
+    ]
+  },
+  {
+    "id": "course-5",
+    "title": "Création de contenu vidéo pour réseaux sociaux",
+    "category": "category-3",
+    "level": "Intermédiaire",
+    "price": 69,
+    "duration": "6 semaines",
+    "students": 280,
+    "rating": 4.6,
+    "summary": "Maîtrisez la création de vidéos courtes attractives avec des techniques de storytelling et montage rapide.",
+    "instructor": "Nina Vautier",
+    "program": [
+      "Storytelling visuel",
+      "Tournage avec smartphone",
+      "Montage rapide",
+      "Optimisation pour Instagram et TikTok"
+    ],
+    "reviews": [
+      { "name": "Maya", "comment": "Enfin un cours orienté réseaux sociaux.", "rating": 5 },
+      { "name": "Romain", "comment": "Simple à suivre et inspirant.", "rating": 4 }
+    ]
+  },
+  {
+    "id": "course-6",
+    "title": "CSS avancé : animations et interfaces modernes",
+    "category": "category-1",
+    "level": "Avancé",
+    "price": 89,
+    "duration": "7 semaines",
+    "students": 390,
+    "rating": 4.8,
+    "summary": "Développez des interfaces dynamiques avec animations CSS, flexbox, grid et composants responsives.",
+    "instructor": "Lucas Petit",
+    "program": [
+      "CSS moderne",
+      "Animatioons et transitions",
+      "Design responsive avancé",
+      "Patterns UI"
+    ],
+    "reviews": [
+      { "name": "Nora", "comment": "Les animations sont super bien expliquées.", "rating": 5 },
+      { "name": "Antoine", "comment": "Contenu très pratique.", "rating": 4 }
+    ]
+  }
+]

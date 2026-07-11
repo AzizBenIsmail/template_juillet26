@@ -1,0 +1,6 @@
+[
+  { "id": "category-1", "name": "Design" },
+  { "id": "category-2", "name": "Développement" },
+  { "id": "category-3", "name": "Marketing" },
+  { "id": "category-4", "name": "Productivité" }
+]
