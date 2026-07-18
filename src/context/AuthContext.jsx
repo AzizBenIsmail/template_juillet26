@@ -51,16 +51,16 @@ export function AuthProvider({ children }) {
 
   const login = ({ email, password }) => {
     const existing = users.find((u) => u.email.toLowerCase() === email.toLowerCase());
-    if (!existing) return { success: false, message: 'Adresse email inconnue.' };
-    if (!existing.active) return { success: false, message: 'Compte désactivé.' };
-    if (existing.password !== password) return { success: false, message: 'Mot de passe incorrect.' };
+    if (!existing) return { success: false, error: 'auth.unknownEmail' };
+    if (!existing.active) return { success: false, error: 'auth.accountDisabled' };
+    if (existing.password !== password) return { success: false, error: 'auth.invalidLogin' };
     setUser(existing);
     return { success: true };
   };
 
   const register = ({ name, email, password }) => {
     const already = users.some((u) => u.email.toLowerCase() === email.toLowerCase());
-    if (already) return { success: false, message: 'Un compte existe déjà avec cet email.' };
+    if (already) return { success: false, error: 'auth.emailInUse' };
     const nextUser = {
       id: `user-${Date.now()}`,
       name,
