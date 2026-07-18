@@ -9,3 +9,5 @@ export async function getUsers() {
 export async function deleteUser(userId) {
     return await axios.delete(`${apiUrl}/deleteUser/${userId}`);
 }
+
+
